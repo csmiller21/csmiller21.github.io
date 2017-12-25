@@ -33,13 +33,13 @@
       <!-- Loading an OBJ file within an a-entity tag -->
       <a-entity scale="1 1 1" obj-model="obj: url(duck.obj); mtl: url(duck.mtl)" position="0 1 0" rotation="0 0 0" n-mesh-collider="type: environment; convex: false">
         <!-- Animating the a-entity's rotation -->
-        <a-animation attribute="rotation" dur="5000" delay="0" fill="forwards" repeat="indefinite" easing="linear" from="0 0 0" to="0 360 0"></a-animation>
+        
       </a-entity>
 
       <!-- Loading OBJ native in A-Frame, requires the OBJ to be in assest --> 
       <a-obj-model scale="1 1 1" src="#duck-obj" mtl="#duck-mtl" position="2 1 0" rotation="0 90 0" n-mesh-collider="type: environment; convex: false">
         <!-- Animating the OBJ's scale, alternating -->
-        <a-animation attribute="scale" dur="5000" delay="0" fill="forwards" repeat="indefinite" easing="linear" direction="alternate" from="1 1 1" to="0.1 0.1 0.1"></a-animation>
+        
       </a-obj-model>
       
      
@@ -49,8 +49,7 @@
 
           <!-- Loading Sky-Box, requires image to be in assets -->
 
-      <a-sky id="skybox" position="0 0 0" radius="2000" rotation="0 0 0" src="#sky" segments-width="16" segments-height="16">
-        
+       
     <!-- Ending the scene --> 
     </a-scene>
 
