@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="mouse4">
+                <polygon id="Shape" points="0 0 64 0 64 64 0 64"></polygon>
+                <circle id="Oval" stroke="#CCCCCC" stroke-width="2" cx="26" cy="18" r="5"></circle>
+                <path d="M21,26.662178 C18.0109931,24.9331309 16,21.7014118 16,18 C16,12.4771525 20.4771525,8 26,8 C30.4776418,8 34.2679341,10.942893 35.5421977,15 L33.418483,15 C32.2317082,12.0681697 29.3573776,10 26,10 C21.581722,10 18,13.581722 18,18 C18,20.5263846 19.171075,22.7792499 21,24.245371 L21,26.662178 Z" id="Combined-Shape" fill="#CCCCCC"></path>
+                <rect id="Rectangle" stroke="#757575" stroke-width="2" x="21" y="15" width="22" height="34" rx="11"></rect>
+                <polygon id="Rectangle-11" fill="#757575" points="24 18 32 14 32 26 20 26"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="hand3-copy">
+                <rect id="Rectangle-5" x="0" y="0" width="64" height="64"></rect>
+                <g id="Group" transform="translate(14.000000, 4.000000)">
+                    <g id="Group-Copy" transform="translate(1.000000, 9.000000)">
+                        <rect id="Rectangle-2" x="0" y="0" width="31" height="38"></rect>
+                        <path d="M19,19 L26.9904421,19 C29.2048598,19 31,20.7924676 31,22.99923 L31,35.00077 C31,37.2094838 29.1996477,39 26.9904421,39 L13.0095579,39 C11.5577287,39 10.2861239,38.2295166 9.58248563,37.0769431 C9.55387517,37.0408382 9.52763643,37.0023504 9.50409845,36.9615814 L0.995397568,22.2240792 C0.445654671,21.2718965 0.768796424,20.0561352 1.73205081,19.5 C2.68863605,18.9477153 3.91320781,19.2778747 4.45949918,20.2240792 L9,28.0884573 L9,22.999615 L9,4.99079514 C9,3.89130934 9.88772964,3 11,3 C12.1045695,3 13,3.89821238 13,4.99079514 L13,19.0000104 C13.0031851,19.0000037 13.0063711,19 13.0095579,19 L15,19 L15,2.991155 C15,1.89147046 15.8877296,1 17,1 C18.1045695,1 19,1.88967395 19,2.991155 L19,19 Z" id="Combined-Shape" fill="#757575"></path>
+                    </g>
+                    <polygon id="Shape-Copy-2" fill="#CCCCCC" fill-rule="nonzero" transform="translate(15.000000, 4.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -4.000000) " points="15.01 3 11 3 11 5 15.01 5 15.01 8 19 4 15.01 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

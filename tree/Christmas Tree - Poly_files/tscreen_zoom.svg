@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="hand2">
+                <rect id="Rectangle-5" x="0" y="0" width="64" height="64"></rect>
+                <g id="Group" transform="translate(11.000000, 13.000000)">
+                    <g id="Group-Copy" transform="translate(1.000000, 0.000000)">
+                        <rect id="Rectangle-2" x="3" y="0" width="31" height="38"></rect>
+                        <g id="Group-Copy-3" transform="translate(0.000000, 1.000000)">
+                            <rect id="Rectangle-2" opacity="0.5" x="0" y="0" width="34" height="38"></rect>
+                            <path d="M13.8903875,37.4828399 C14.4532974,37.8116204 15.1081548,38 15.8069916,38 L29.9904421,38 C32.1996477,38 34,36.2094838 34,34.00077 L34,21.99923 C34,19.7924676 32.2048598,18 29.9904421,18 L16.0095579,18 C16.0063711,18 16.0031851,18.0000037 16,18.0000112 L16,3.99079514 C16,2.89821238 15.1045695,2 14,2 C12.8877296,2 12,2.89130934 12,3.99079514 L12,21.999615 L12,31.7735027 L3.73214276,27.0000531 C2.7708132,26.4450292 1.55228475,26.7754656 1,27.7320508 C0.443864822,28.6953052 0.77550673,29.9118406 1.73214276,30.4641547 L13.8564409,37.4641215 C13.8676751,37.4706076 13.8789928,37.4768465 13.8903875,37.4828399 Z" id="Combined-Shape" fill="#757575"></path>
+                        </g>
+                    </g>
+                    <polygon id="Shape-Copy-6" fill="#CCCCCC" fill-rule="nonzero" transform="translate(6.193075, 16.728609) scale(-1, 1) rotate(-285.000000) translate(-6.193075, -16.728609) " points="11.2030747 15.7286086 1.19307471 15.7286086 1.19307471 12.7286086 -2.80692529 16.7286086 1.19307471 20.7286086 1.19307471 17.7286086 11.2030747 17.7286086 11.2030747 20.7286086 15.1930747 16.7286086 11.2030747 12.7286086"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
