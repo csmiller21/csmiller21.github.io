@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+	
+<title>ERROR!!!!</title>
+
+<style>
+
+body {
+        color: gold;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="black">
+<center>
+
+<img src="error.jpg" alt="Error!" align="middle" style="width:512px;height:512px;">
+<br>
+Error: <!--#echo var="REDIRECT_STATUS" -->
+<br>
+duckluck.net<!--#echo var="REQUEST_URI" -->
+<br>
+<a href="/index.html">Home</a>
+
+</center>
+</body>
+
+</html>
+
+
+<!-- 
+                                                                                                                                                                                                                                                                               
+--> 
