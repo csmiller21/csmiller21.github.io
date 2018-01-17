@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>A-Frame OBJ, Natives, Animation</title>
+    <meta name="A-Frame OBJ, Natives, Animation" content="A-Frame OBJ, Natives, Animation">
+    <!-- Calling on aframes JS -->
+    <script src="https://aframe.io/releases/0.3.0/aframe.js"></script>
+    <!-- Calling on the Altspace SDK js -->
+    <script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.1/dist/altspace.js"></script>
+
+  </head>
+
+   <body>
+
+
+    <!-- Starting the scene, defining the space to be a fullspace app -->
+    <a-scene altspace="verticalAlign: middle; fullspace: true" vr-mode-ui="enabled: false"> 
+
+      <!-- Asset Loading -->
+      <a-assets> 
+      
+      <!-- Adding an image to assets -->
+      <img id="sky" src="sky.jpg"/>
+
+      <!-- Adding an OBJ and its MTL to assest -->
+      <a-asset-item id="myfirst-obj" src="deserted-webgl.obj"></a-asset-item>
+      <a-asset-item id="myfirst-mtl" src="deserted-webgl.mtl"></a-asset-item>
+      
+      </a-assets>
+
+
+      <!-- Loading an OBJ file within an a-entity tag -->
+      
+        
+     
+
+      <!-- Loading OBJ native in A-Frame, requires the OBJ to be in assest --> 
+     <a-obj-model scale=".1 .1 .1 " src="#myfirst-obj" mtl="#myfirst-mtl" position="15 1 0" rotation="0 0 0" n-mesh-collider="type: environment; convex: false">
+        
+        
+      </a-obj-model>
+      
+    
+
+
+
+
+
+
+
+
+
+
+     
+
+
+          <!-- Loading Sky-Box, requires image to be in assets -->
+
+       
+    <!-- Ending the scene --> 
+    </a-scene>
+
+  </body>
+</html>
