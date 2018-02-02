@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Teleport Hub</title>
+    <meta name="Teleport Hub" content="Teleport Hub">
+    <!--Calling on aframes JS-->
+    <script src="https://aframe.io/releases/0.3.0/aframe.js"></script>
+    <!--Calling on the Altspace SDK js-->
+    <!--<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.1/dist/altspace.js"></script>-->
+    <script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.4.5/dist/altspace.min.js"></script>
+  </head>
+  <body>
+    <!-- Starting the scene, defining the alignment of the scene to the bottom of the boundary box-->
+    <a-scene altspace='vertical-align: bottom'>
+      <!--Asset Loading-->
+      <!--<a-assets> 
+      </a-assets>-->
+      <!--Load portals-->
+      <!--Uganda-->
+      <a-entity position='0 0.2 10' rotation='0 180 0' n-portal="targetSpace: event-855383141190206287"></a-entity>
+      <a-entity n-text="fontSize: 2; text:Uganda" position="0 0.7 10" rotation='0 180 0' visible></a-entity>
+      <!--New User Info
+      <a-entity position='-6 0.2 -10' rotation='0 0 0' n-portal='targetSpace: new-user-info'></a-entity>
+      <a-entity n-text="fontSize: 2; text:New User Info" position="-6 0.7 -10" rotation='0 0 0' visible></a-entity>-->
+      <!--Campfire-->
+      <a-entity position='-5 0.2 -10' rotation='0 0 0' n-portal='targetSpace: campfire-lobby'></a-entity>
+      <a-entity n-text="fontSize: 2; text:Campfire" position="-5 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--Lobby-->
+      <a-entity position='-3 0.2 -10' rotation='0 0 -2' n-portal='targetSpace: lobby'></a-entity>
+      <a-entity n-text="fontSize: 2; text:Lobby" position="-3 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--El Hoguero-->
+      <a-entity position='-1 0.2 -10' rotation='0 0 0' n-portal='targetSpace: el-fuego-del-campamento'></a-entity>
+      <a-entity n-text="fontSize: 2; text:El Hoguero" position="-1 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--Lunar's Tavern-->
+      <a-entity position='1 0.2 -10' rotation='0 0 0' n-portal='targetSpace: lunar-s-medieval-tavern'></a-entity>
+      <a-entity n-text="fontSize: 2; text:Lunar's Tavern" position="1 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--Ben's Test House-->
+      <a-entity position='3 0.2 -10' rotation='0 0 0' n-portal='targetSpace: test-house'></a-entity>
+      <a-entity n-text="fontSize: 2; text:Ben's Test House" position="3 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--Toy House-->
+      <a-entity position='5 0.2 -10' rotation='0 0 0' n-portal='targetSpace: event-862654090620961312'></a-entity>
+      <a-entity n-text="fontSize: 2; text:Toy House" position="5 0.7 -10" rotation='0 0 0' visible></a-entity>
+      <!--Make another boundary box and load event portals-->
+      <a-entity position="10 0.3 6" rotation="0 -90 0" scale="1 1 1" n-layout-browser="url:http://altspacevr.github.io/event-portals-app/;isEnclosure:true;"></a-entity>
+      <a-entity n-text="fontSize: 4; text:Events<br>|<br>|<br>V" position="10 3.5 0" rotation='0 -90 0' visible></a-entity>
+    <!--Ending the scene--> 
+    </a-scene>
+  </body>
+</html>
