@@ -1,0 +1,61 @@
+newmtl tire
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl metal-pole
+Kd 0.9215687 0.9215687 0.9215687
+illum 2
+
+newmtl stripes
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl metal_pole_sign
+Kd 0.6985294 0.6985294 0.6985294
+illum 2
+
+newmtl mountain-wall
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl bridge_wall
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl cable-black
+Kd 0.1647059 0.1647059 0.1647059
+illum 2
+
+newmtl concrete-floor
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl asphalt
+Kd 1 1 1
+map_Kd null
+map_Bump null
+illum 2
+
+newmtl asphalt-dirt
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl dirt
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl WaterBasicDaytime
+map_Bump null
+illum 2
+
