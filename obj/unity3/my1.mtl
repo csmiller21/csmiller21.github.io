@@ -1,0 +1,5 @@
+newmtl redgiant
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity3\redgiant.png
+illum 2
+
