@@ -1,0 +1,65 @@
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl tire
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\tire.png
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\tire-n.png
+illum 2
+
+newmtl mountain-wall
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\mountain-wall.png
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\mountain-wall-n.png
+illum 2
+
+newmtl stripes
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\stripes.png
+illum 2
+
+newmtl metal_pole_sign
+Kd 0.6985294 0.6985294 0.6985294
+illum 2
+
+newmtl concrete-floor
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\concrete-floor.png
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\concrete-floor-n.png
+illum 2
+
+newmtl bridge_wall
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\bridge_wall.png
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\bridge_wall_n.png
+illum 2
+
+newmtl WaterBasicDaytime
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\WaterBasicNormals.png
+illum 2
+
+newmtl metal-pole
+Kd 0.9215687 0.9215687 0.9215687
+illum 2
+
+newmtl cable-black
+Kd 0.1647059 0.1647059 0.1647059
+illum 2
+
+newmtl asphalt
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\asphalt.png
+map_Bump C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\asphalt-n.png
+illum 2
+
+newmtl asphalt-dirt
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\asphalt-dirt.png
+illum 2
+
+newmtl dirt
+Kd 1 1 1
+map_Kd C:\Users\c\Desktop\nh\csmiller21.github.io\obj\unity2\dirt.png
+illum 2
+
