@@ -2,11 +2,11 @@ newmtl red
 Kd 0.9779412 0.09347964 0.09347964
 illum 2
 
-newmtl Default-Material
-Kd 1 1 1
-illum 2
-
 newmtl blue
 Kd 0.2588666 0.0790982 0.9779412
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
 illum 2
 
