@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script>
+  
+  </head>
+  <body>
+ <script>
+   /**/
+ 		if (window.navigator.userAgent.indexOf('Altspace') == -1) {
+			document.write('<a-scene fog="type: exponential;density:0.00025;color: #874f01;">');
+		}else{
+      document.write('<a-scene sync-system="app: Tatooine; author: Altspace" altspace="fullspace:true;" fog="type: exponential;density:0.00025; color: #874f01;">');
+      
+       altspace.getUser().then(function (fulfilled) {
+            // yay, you got a new phone
+            console.log(fulfilled);
+         // output: { brand: 'Samsung', color: 'black' }
+        })
+        .catch(function (error) {
+            // oops, mom don't buy it
+            console.log(error.message);
+         // output: 'mom is not happy'
+        });   
+    }
+
+ </script>
+    <!--   
+   <a-scene sync-system='app: Tatooine; author: Altspace' altspace="fullspace:true;">
+
+   <a-scene>
+  -->
+  <a-entity id="arrow_panel" position="3.602 0.933 0.825" rotation="-90.012 0 0" scale="0.08 0.017 0.08"  altspace-cursor-collider="enabled: false">
+    <a-entity id="up_arrow" position="-2.512 0 0" rotation="-180 0 0">
+    <a-entity position="-0.196 0 -0.282" rotation="0 -53.686 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="0.201 0 -0.282" rotation="0 53.68614540375814 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="-0.012 0 0" scale="0.189 1 1" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+  </a-entity>
+  <a-entity id="down_arrow" position="0.922 0.234 0">
+    <a-entity position="-0.196 0 -0.282" rotation="0 -53.686 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="0.201 0 -0.282" rotation="0 53.68614540375814 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="-0.012 0 0" scale="0.189 1 1" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+  </a-entity>
+  </a-entity>
+  <a-entity id="arrow_panel2" position="6.366 9.112 -0.706" rotation="-90.012 0 0" scale="0.08 0.017 0.08" altspace-cursor-collider="enabled: false">
+    <a-entity id="up_arrow" position="0.376 -0.119 0" rotation="-180 0 0">
+    <a-entity position="-0.196 0 -0.282" rotation="0 -53.686 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="0.201 0 -0.282" rotation="0 53.68614540375814 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="-0.012 0 0" scale="0.189 1 1" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+  </a-entity>
+  <a-entity id="down_arrow" position="-2.372 0.234 0">
+    <a-entity position="-0.196 0 -0.282" rotation="0 -53.686 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="0.201 0 -0.282" rotation="0 53.68614540375814 0" scale="0.189 1 0.45" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+    <a-entity position="-0.012 0 0" scale="0.189 1 1" geometry="" material="color:white" altspace-cursor-collider="enabled: false"></a-entity>
+  </a-entity>
+  </a-entity>
+      <a-assets>
+        <img id="thesky" src="sky_redsunset1200.jpg">
+        <img id="btn" src="main_bottom/btn1.png">
+        <img id="catwalk" src="catwalk.png">
+        <img id="cracked" src="main_top/cracked.jpg">
+      </a-assets>
+<!---->
+<a-entity obj-model="mtl:main_top/hut.mtl;obj:main_top/hut.obj" id="hut" n-mesh-collider="type:environment;convex:false" position="-0.28 -1.161 0.05"></a-entity>
+      <a-entity obj-model="mtl:main_top/top.mtl;obj:main_top/top.obj" id="main_top" n-mesh-collider="type: environment;convex:false;"></a-entity>
+      <a-entity position="-964.431 7.773 -932.189" scale="1900.218 1 1900.181" id="desert" geometry="" material="src:#cracked;repeat: 500 500;" n-mesh-collider="type: environment;"></a-entity></a-entity>
+      <a-entity position="935.7919999999999 7.773 -962.4920000000001" scale="1900.218 1 1900.181" id="desert-3" geometry="" material="repeat:500 500;src:#cracked" n-mesh-collider="type:environment"></a-entity>
+      <a-entity position="985.02 7.773 938.013" scale="1900.218 1 1900.181" id="desert-2" geometry="" material="repeat:500 500;src:#cracked" n-mesh-collider="type:environment"></a-entity>
+      <a-entity position="-904.77 7.773 967.3499999999999" scale="1900.218 1 1900.181" id="desert-4" geometry="" material="repeat:500 500;src:#cracked" n-mesh-collider="type:environment"></a-entity>
+
+      <a-entity obj-model="mtl:main_bottom/main_bottom.mtl;obj:main_bottom/main_bottom.obj" id="main_bottom" n-mesh-collider="type: environment;"></a-entity>
+      <a-entity obj-model="mtl:main_bottom/rocks.mtl;obj:main_bottom/rocks.obj" id="rocks" n-mesh-collider="type: environment;convex:false;"></a-entity> 
+      <a-entity id="scaff" position"0="" 3.918="" 0"="" position="0 3.973 0">
+        <a-entity n-box-collider="type:environment" position="3.542 3.692 1.072" scale="0.506 15.6 0.401" geometry="" material="repeat:0.35 13;transparent:true;src:#catwalk;"></a-entity>
+        <a-entity n-box-collider="type:environment" position="6.27 3.692 1.072" scale="0.506 15.6 0.401" geometry="" material="repeat:0.35 13;transparent:true;src:#catwalk;"></a-entity>
+        <a-entity n-box-collider="type:environment" position="3.586 3.692 -1.017" scale="0.506 15.6 0.401" geometry="" material="repeat:0.35 13;transparent:true;src:#catwalk;"></a-entity>
+        <a-entity n-box-collider="type:environment" position="6.27 3.692 -0.964" scale="0.506 15.6 0.401" geometry="" material="repeat:0.35 13;transparent:true;src:#catwalk;"></a-entity>
+    </a-entity>
+      <a-entity n-box-collider="type: environment;" position="4.845 0.025 0.041" scale="3.056 0.06 1.679" geometry="" id="lift" sync="" sync-transform="" material="src:#catwalk;repeat: 1 1;transparent:true;">
+          <a-animation attribute="position" to="4.845 0.025 0.041" from="4.845 8.185 0.041" dur="10000" begin="elevator_down"></a-animation>         
+          <a-animation attribute="position" from="4.845 0.025 0.041" to="4.845 8.185 0.041" dur="10000" begin="elevator_up"></a-animation>
+    
+        </a-entity>
+        <a-entity geometry="" id="lift2" material="transparent:true;src:#catwalk" n-box-collider="type:environment" position="4.824 15.358 0.101" scale="5.581 0.187 6.874"></a-entity>
+        <a-entity id="stairs">
+          <a-entity geometry="" id="lift2-2" material="transparent:true;src:#catwalk" n-box-collider="type:environment" position="12.089 7.825 13.543" scale="1.451 0.806 1.451"></a-entity>
+          <a-entity geometry="" id="lift2-4" material="transparent:true;src:#catwalk" n-box-collider="type:environment" position="10.615 7.825 13.543" scale="1.451 0.806 1.451"></a-entity>
+          <a-entity geometry="" id="lift2-5" material="transparent:true;src:#catwalk" n-box-collider="type:environment" position="7.711 7.825 13.543" scale="1.451 0.806 1.451"></a-entity>
+          <a-entity geometry="" id="lift2-6" material="transparent:true;src:#catwalk" n-box-collider="type:environment" position="9.158 7.825 13.543" scale="1.451 0.806 1.451"></a-entity>
+          <a-entity geometry="" id="lift2-3" material="transparent:true;color:blue;src:#catwalk" n-box-collider="type:environment" position="10.411 6.799 12.975" scale="1.451 0.806 1.451"></a-entity>
+  </a-entity>
+        </a-entity>
+        <a-entity id="panel" position="3.854 0.93 0.975" rotation="0 -180 0" scale="0.126 0.126 0.126">
+            <a-entity position="3.625 0 0.738" geometry="" id="el_up" material="color:blue;src:#btn">
+    
+            </a-entity>
+            <a-entity position="1.527 0 0.713" geometry="" id="el_down" material="color:green;src:#btn">
+               
+            </a-entity>
+    </a-entity>
+    <a-entity id="panel2" position="5.962 9.102 -0.861" scale="0.126 0.126 0.126">
+        <a-entity position="3.438 0 0.738" geometry="" id="el_up" material="color:blue;src:#btn">
+ 
+        </a-entity>
+        <a-entity position="1.725 0 0.713" geometry="" id="el_down" material="color:green;src:#btn">
+           
+        </a-entity>
+</a-entity>
+<a-entity id="binary" scale="71.422 71.422 71.422" position="0 -635.501 -676.741">
+  <a-entity position="-0.532 10.357 -24.237" geometry="primitive:sphere" material="color:red;emissive:#f4bf42;opacity:.2"></a-entity>
+  <a-entity position="1.742 9.53 -24.237" geometry="primitive:sphere" material="color:yellow;emissive:#f45816;opacity:.3;"></a-entity>
+  </a-entity>
+<a-sky src="#thesky" radius="2500" rotation="0 -83.0215845144563 0"></a-sky>
+
+<a-entity position="1 1 1" camera="active:true;userHeight:1.6" wasd-controls="easing:20.01;fly:true;acceleration:165" rotation="-38.80136368210983 -1208.0242228532563 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera="" data-aframe-inspector="default-camera" gearvr-controls>
+    <a-cursor></a-cursor>
+
+</a-entity>
+<a-entity id="portals">
+  <a-entity id="portal_1" n-portal="" geometry="" position="11.617 0 22.628"></a-entity>
+  <a-entity id="portal_2" n-portal="" geometry="" position="0 0 -17.011"></a-entity>
+  <a-entity id="portal_3" n-portal="" geometry="" position="-23.819 0 0"></a-entity>
+  <a-entity id="portal_4" n-portal="" geometry="" position="38.742 0 0"></a-entity>
+</a-entity>
+</a-scene>
+    <script>
+    var sceneEl = document.querySelector('a-scene');
+      //sceneEl.querySelector('.tarot_card').setAttribute('rotation', '90 0 0');
+      var el_up = sceneEl.querySelector('#el_up');
+      var el_down = sceneEl.querySelector('#el_down');
+      var el_up2 = sceneEl.querySelector('#panel2 #el_up');
+      var el_down2 = sceneEl.querySelector('#panel2 #el_down');
+
+      var lift = sceneEl.querySelector('#lift');
+      el_up.addEventListener('click', function (event) {
+        console.log('ani started', event);
+        lift.emit('elevator_up', 'text', true);
+      });
+      el_down.addEventListener('click', function (event) {
+        console.log('ani started', event);
+        lift.emit('elevator_down', 'text', true);
+      });
+      el_up2.addEventListener('click', function (event) {
+        console.log('ani started', event);
+        lift.emit('elevator_up', 'text', true);
+      });
+      el_down2.addEventListener('click', function (event) {
+        console.log('ani started', event);
+        lift.emit('elevator_down', 'text', true);
+      });
+
+    </script>
+  </body>
+</html>
