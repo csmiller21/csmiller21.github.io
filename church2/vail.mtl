@@ -1,0 +1,10 @@
+newmtl vail:wallSG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 0.61
+Tf 0.03 0.03 0.03
+map_Kd images.jpg
+Ni 1.00
+Ks 0.83 0.83 0.83
+Ns 18.00
+d 0.2

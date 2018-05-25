@@ -1,0 +1,7 @@
+newmtl ddddddgf22_initialShadingGroup_pPlane1SG
+illum 1
+Kd 1.00 1.00 1.00
+Ka 0.45 0.45 0.45
+Tf 1.00 1.00 1.00
+map_Kd redcarpet.jpg
+Ni 1.00

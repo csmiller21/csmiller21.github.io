@@ -1,0 +1,7 @@
+newmtl baked22_baked22_stage_phongE3SG_stage_polySurface1SG_stage_polySurface1SG
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd test1.jpg
+Ni 1.00

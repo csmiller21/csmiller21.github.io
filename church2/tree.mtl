@@ -1,0 +1,8 @@
+newmtl phongE1SG
+illum 0
+Kd 0.8 0.8 0.8
+Ka 0.00 0.00 0.00
+Tf 0.20 0.20 0.20
+map_Kd sakura1.jpg
+Ni 0.00
+Ks 0.10 0.10 0.10
