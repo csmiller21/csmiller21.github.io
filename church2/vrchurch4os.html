@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Models</title>
+    <meta name="description" content="Models — A-Frame">
+
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/AltspaceVR/AltspaceSDK/v2.6.1/dist/altspace.min.js"></script>
+</head>
+
+  </head>
+  <body>
+  
+  
+  
+  
+  
+  
+    <a-scene altspace="fullspace: true">
+	
+	
+	
+
+ <a-assets>
+ 
+ 
+	
+
+        <a-asset-item id="chair-mtl" src="chair.mtl"></a-asset-item>
+        <a-asset-item id="chair-obj" src="chair.obj"></a-asset-item>
+        <a-asset-item id="stage-mtl" src="stage.mtl"></a-asset-item>
+        <a-asset-item id="stage-obj" src="stage.obj"></a-asset-item>
+        <a-asset-item id="vail-mtl" src="vail.mtl"></a-asset-item>
+        <a-asset-item id="vail-obj" src="vail.obj"></a-asset-item>
+        <a-asset-item id="wall-mtl" src="wall.mtl"></a-asset-item>
+        <a-asset-item id="wall-obj" src="wall.obj"></a-asset-item>
+
+        <a-asset-item id="redcarpet-mtl" src="redcarpet.mtl"></a-asset-item>
+        <a-asset-item id="redcarpet-obj" src="redcarpet.obj"></a-asset-item>
+        <a-asset-item id="tree-mtl" src="tree.mtl"></a-asset-item>
+        <a-asset-item id="tree-obj" src="tree.obj"></a-asset-item>
+
+        <img id="sky" src="sky.jpg">
+<img id="graund" src="sougen.jpg">
+
+
+
+
+
+
+
+
+
+
+
+</a-assets>
+<a-sky  src= "#sky"  radius= "500" position="0 0 0"></a-sky>
+
+
+<!-- grass field  -->
+<a-plane material="shader: flat; src: #graund ; repeat:400 400 "  height="1000" width="1000" position="0 0 0"  rotation="-90 0 90" altspace-cursor-collider='enabled: false'></a-plane>
+
+
+<!-- trees  -->
+<a-obj-model src="#tree-obj" mtl="#tree-mtl" n-mesh-collider="type: environment; convex: false" position="24 0 -17.71" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#tree-obj" mtl="#tree-mtl" n-mesh-collider="type: environment; convex: false" position="-17.09 0 -17.17" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+
+
+<!-- Video screen  -->
+<a-entity position="3.54 9.77 -53.28" rotation="0 0 0" scale="15 18.1 15" n-layout-browser="url: https://docs.google.com/presentation/d/1pyplo0_bodkC5IMKXY1a9QLid_k1ApNJ_mNno9cDRbY/pub?start=false&loop=false&delayms=3000&slide=id.g1f7b477cd5_0_59"></a-entity>
+
+<!-- church  -->
+<a-entity position="18.36 0 -37.56" rotation="0 -90 0" scale="4 4 4">
+<a-obj-model src="#chair-obj" mtl="#chair-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#stage-obj" mtl="#stage-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#vail-obj" mtl="#vail-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#wall-obj" mtl="#wall-mtl" n-mesh-collider="type: environment; convex: false" position="0 0 0" rotation="0 0 0" scale="1 1 1"></a-obj-model>
+<a-obj-model src="#redcarpet-obj" mtl="#redcarpet-mtl" position="0 0 0" rotation="0 0 0" scale="1 1 1" altspace-cursor-collider='enabled: false'></a-obj-model>
+
+</a-entity>
+</a-scene>
+<a-entity position="0 0 0" rotation="0 0 0" n-layout-browser="url:https://shanesedit.org"></a-entity>
+
+  </body>
+</html>
