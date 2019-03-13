@@ -1,0 +1,4 @@
+<a class="channel-block-link" href="/worlds/1004197441810989920/spaces/1004197443027338090/space_components/1162480550443745708" id="block-link-1162480550443745708">
+<div class="channel-block-inner">
+<div class="image-wrapper">
+<div class="block-name">BBall Rack (Interactables)</div>
